@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>InSight/Profile</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<header class="main-head">
+		<div class="top-line">
+			<div class="container">
+				<a onclick="location.href='index.html'" class="logo"><img src="img/logo.png" alt="inSight"></a>
+				<div class="modal-window">
+					<img src="img/min-user-photo.jpg" alt="user-photo">
+					<div class="wrapp-modal">
+						<h2>Alona Horiainova</h2>
+						<button class="btn" type="button"><span>View Profile</span></button>
+					</div>
+					<div class="sign-out">
+						<a href="#">Sign out</a>
+					</div>
+				</div>
+				<div class="user-info-min">
+					<img src="img/min-user-photo.jpg" alt="user-photo">
+					<a href="#" class="top-link">Alona Horiainova</a>
+				</div>
+			</div>
+		</div>	
+		<section class="bg-line" style="background-image: url(./img/bg-mountains.jpg);">
+			<div class="container">
+				<div class="user-info">
+					<img src="img/min-user-photo.jpg" alt="user-photo">
+					<h2>Alona Horiainova</h2>
+				</div>
+			</div>	
+		</section>
+	</header>
+	
+	<div class="profile-content">
+		<div class="center-content">
+			<div class="wrapp-avatar">
+				<div class="avatar">
+					<img src="img/min-user-photo.jpg" alt="your avatar">
+				</div>
+				<div class="wrapp-profile">
+					<h4>your avatar</h4>
+					<button class="btn" type="button"><span>Update</span></button>
+				</div>
+			</div>
+			
+			<input class="basic-input" type="text" name="firstname" placeholder="Name" required>
+			<input class="basic-input" type="text" name="lastname" placeholder="Surname" required>
+			<input class="basic-input" type="email" name="email" placeholder="Email" required>
+			<input class="basic-input" type="text" name="jobposition" placeholder="Job Position" required>
+				<div class="title-day"><span>Date of Birth</span></div>
+				<div class="drobdown-list">
+					<div class="style-select"><select class="day-select" name="day"><option value="day">Day</option></select></div>
+					<div class="style-select"><select class="month-select" name="month"><option value="month">Month</option></select></div>
+					<div class="style-select"><select class="year-select" name="year"><option value="year">Year</option></select></div>
+				</div>
+			<input class="basic-input" type="tel" name="usrtel" placeholder="Contact phone number" required>
+			<button class="btn" type="button"><span>UPDATE SETTINGS</span></button>
+		</div>
+	</div>	
+<footer style="height: 60px; background-color: #3EA6A4;">
+					
+</footer>
+
+
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>InSight/Manager/App-List</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+</head>
+<body>
+    <header class="main-head">
+		<div class="top-line">
+			<div class="container">
+				<a class="logo" onclick="location.href='index.html'"><img src="img/logo.png" alt="inSight"></a>
+				<div class="modal-window">
+					<img src="img/min-user-photo.jpg" alt="user-photo">
+					<div class="wrapp-modal">
+						<h2>Artem Avdoshkin</h2>
+						<button class="btn" type="button" onclick="location.href='profile.html'"><span>View Profile</span></button>
+					</div>
+					<div class="sign-out">
+						<a href="#">Sign out</a>
+					</div>
+				</div>
+				<div class="user-info-min">
+					<img src="img/min-user-photo.jpg" alt="user-photo">
+					<a href="#" class="top-link">Artem Avdoshkin</a>
+				</div>
+			</div>
+		</div>
+		<section class="bg-line" style="background-image: url(./img/bg-roads.jpg); height: 180px">
+			
+		</section>
+	</header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <section> 
+                    <div class="wrapp-user-head">
+                        
+                            <div class="avatar">
+                                <img src="img/min-user-photo.jpg" class="img-responsive" alt="user-photo">
+                            </div>
+                            <div class="wrapp-descr-user">
+                                <p>Scott Masterson</p>
+                                <span>Front-end developer</span>
+                            </div>
+                        
+                    </div>
+                </section>
+                <section>
+                    <div class="basic-info">
+                        <p>Basic Information</p>
+                        <div class="basic-info-card">
+                            <div>
+                                <div><p>Date of Birth</p></div>
+                                <div><p>22.04.1974</p></div>
+                            </div>
+                            <div>
+                                <div><p>Email</p></div>
+                                <div><p>email.edress@gmail.com</p></div>
+                            </div>
+                            <div>
+                                <div><p>Phone Number</p></div>
+                                <div><p>+380673757471</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-6">
+               <div class="circl-charts">
+                   <div class="container-circl-top">
+                       <div class="wrapp-circl">
+                            <div id="prod-circl" class="left-circle" data-value-percent="80"></div>
+                        </div>
+                        <h3>Productivity</h3>
+                   </div>
+                   <div class="container-circl-bottom">
+                       <div class="wrapp-circl">
+                            <div id="ineff-circl" class="right-circle" data-value-percent="20"></div>
+                        </div>
+                        <h3>Inefficiency</h3>
+                   </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <section class="applist day-statistic-manager ">
+        <div class="tbl-header-manager">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">Total</th>
+                        <th style="width: 20%;">Application / website</th>
+                        <th style="width: 50%;">Category</th>
+                    </tr>
+                </thead>	
+            </table>
+        </div>
+        <div class="tbl-content-manager">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td>00:06</td>
+                        <td>Sublime Text</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:13</td>
+                        <td>Microsoft Visual Studio</td>
+                       <td>
+                           <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>00:45</td>
+                        <td>Adobe Photoshop CS6</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" class="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" class="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:21</td>
+                        <td>Skype</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:44</td>
+                        <td>Chrome</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:45</td>
+                        <td>Adobe Photoshop CS6</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:21</td>
+                        <td>Skype</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:13</td>
+                        <td>Microsoft Visual Studio</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:44</td>
+                        <td>Chrome</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>01:10</td>
+                        <td>Internet Explorer</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:21</td>
+                        <td>Skype</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>00:13</td>
+                        <td>Microsoft Visual Studio</td>
+                        <td>
+                            <form onsubmit="return false;">
+                               <input type="radio" id="radio-prod" name="appc_category" value="productive" checked>
+                               <label for="radio-prod">Productive</label>
+                               <input type="radio" id="radio-inef" name="appc_category" value="inefficient">
+                               <label for="radio-inef">Inefficient</label>
+                               <input class="btn" type="submit" value="Apply">
+                            </form>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+    
+    <!-- <footer style="height: 60px; background-color: #3EA6A4;"> -->
+    
+
+
+    <link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

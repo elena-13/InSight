@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>InSight/Employee</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<header class="main-head">
+		<div class="top-line">
+			<div class="container">
+				<a href="#" class="logo"><img src="img/logo.png" alt="inSight"></a>	
+					<div class="modal-window">
+						<img src="img/min-user-photo.jpg" alt="user-photo">
+						<div class="wrapp-modal">
+							<h2>Alona Horiainova</h2>
+			
+							<button type="submit" class="btn" onclick="location.href='profile.html'"> <span>View Profile</span></button>
+				
+						</div>
+						<div class="sign-out">
+							<a href="#">Sign out</a>
+						</div>
+					</div>
+					<div class="overlay"></div>
+			
+				<div class="user-info-min">
+					<img src="img/min-user-photo.jpg" alt="user-photo">
+					<a href="#" class="top-link">Alona Horiainova</a>
+				</div>
+			</div>
+		</div>	
+		<section class="bg-line" style="background-image: url(./img/bg-mountains.jpg);">
+			<div class="container">
+				<div class="user-info">
+					<img src="img/min-user-photo.jpg" alt="user-photo">
+					<h2>Alona Horiainova</h2>
+				</div>
+			</div>	
+		</section>
+	</header>
+
+	<section>
+		<div class="tabs">
+			<div class="tabs-header">
+				<div class="border">
+				</div>
+				<ul class="main-tabs">
+					<li class="active main-tabs-user"  ripple="rippple" ripple-color="#fff"><a href='#tab-1' tab-id='1'>Calendar</a></li>
+					<li class="main-tabs-user" ripple="rippple" ripple-color="#fff"  ><a href='#tab-2' tab-id='2'>Time Banking</a></li>
+					<li class="main-tabs-user" ripple="rippple" ripple-color="#fff"><a href='#tab-3' tab-id='3' >Statistic</a></li>
+				</ul>
+			</div>
+			<div class="tabs-content">
+				<div class="tab active" tab-id='1'>
+					<div class="time-line">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6 col-sm-6">
+									<div class="wrapp-weeks">
+									<div class="owl-carousel owl-theme">
+												<div class="item">
+													<strong>Week 03</strong>
+													<span>Jan 12 - Jan 18</span>
+												</div>
+												<div class="item">
+													<strong>Week 04</strong>
+													<span>Jan 18 - Jan 25</span>
+												</div>
+									</div>
+									</div>
+									<div class="logged-time">
+										<span>Logged</span>
+										<strong>10:00</strong>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6">
+										<div class="estimated-time">
+											<span>Estimated</span>
+											<strong>18:00</strong>
+										</div>
+										<div class="duration-time">
+											<span>Duration</span>
+											<strong>8:00</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+
+					<div class="weeks-line">
+						<table class="table table-responsive">
+							<thead>
+								<tr>
+									<th>Monday<b>12.01.2017</b></th>
+									<th>Tusday<b>13.01.2017</b></th>
+									<th>Wednesday<b>14.01.2017</b></th>
+									<th>Thursday<b>15.01.2017</b></th>
+									<th>Friday<b>16.01.2017</b></th>
+									<th>Saturday<b>17.01.2017</b></th>
+									<th>Sunday<b>18.01.2017</b></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class-"table-content row">
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Visual Studio</span>
+											<span>10:05</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>AutoCAD</span>
+											<span>11:22</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Adobe Photoshop CS6</span>
+											<span>11:49</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Opera</span>
+											<span>16:15</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>	
+								</td><td><div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>MS Word</span>
+											<span>12:10</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div></td><td></td><td></td>
+							</tr>
+							<tr class-"table-content row">
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>MS Word</span>
+											<span>12:10</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Embarcadero RAD Studio</span>
+											<span>13:35</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>MS Exel</span>
+											<span>14:20</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>MS Word</span>
+											<span>12:10</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>	
+								</td><td></td><td></td><td></td>
+							</tr>
+							<tr class-"table-content row">
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Skype</span>
+											<span>15:10</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Chrome</span>
+											<span>15:20</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Opera</span>
+											<span>16:15</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td></td><td></td><td></td><td></td>
+							</tr>
+							<tr style="opacity: 1">
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Skype</span>
+											<span>15:10</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td style="opacity: 0">
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Chrome</span>
+											<span>15:20</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Opera</span>
+											<span>16:15</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td style="opacity: 0">
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Opera</span>
+											<span>16:15</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td><td></td><td></td><td></td>
+							</tr>
+							<tr style="opacity: 0; background-color: #fff">
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Skype</span>
+											<span>15:10</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Chrome</span>
+											<span>15:20</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Opera</span>
+											<span>16:15</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td></td><td></td><td></td><td></td>
+							</tr>
+							<tr style="opacity: 0; background-color: #fff">
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Skype</span>
+											<span>15:10</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Chrome</span>
+											<span>15:20</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="app-name collapse slide">
+										<div class="wrapp-app">
+											<span>Opera</span>
+											<span>16:15</span>
+										</div>
+										<ul class="extended-descr">
+											<li><p>http://youtube.com</p></li>
+											<li><p>Duration: 30min</p></li>
+											<li><p>Useful</p></li>
+										</ul>
+									</div>
+								</td>
+								<td></td><td></td><td></td><td></td>
+							</tr>
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id='timeBanking' class="tab" tab-id='2'>
+					<div class="time-bank-header">
+						<div class="wrapp-day">
+							<h3>Thu, Apr 13</h3>
+							<span>2017</span>
+						</div>
+						<div class="earned-hours">
+							<p>EARNED HOURS PER PERIOD</p>
+							<strong>4:00 h</strong>
+						</div>
+					</div>
+					<div class="transactions">
+						<h2>A timebank transactions</h2>
+						<div class="container">
+							<div class="col-md-6" style="border-right: 1px solid #ddd">
+								<div class="transaction-card">
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i>Pay for services in "Hour Notes"</p>
+									<button class="btn" type="button"><span>PAY FOR SERVICE</span></button>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="transaction-card">
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i>REQUEST FOR SERVICE in "Hour Notes"</p>
+									<button class="btn" type="button"><span>REQUEST FOR SERVICE</span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="state-account">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6" style="border-right: 1px solid #ddd">
+									<div class="debt-left">
+										<strong>2:00 h</strong>
+										<span>DEBT</span>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="credit-right">
+										<span>CREDIT</span>
+										<strong>1:00 h</strong>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="transaction-hours">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="executed-transaction">
+										<strong>2:00 h</strong>
+										<p>Scott Masterson</p>
+										<span>13.10.17</span>
+									</div>
+									<div class="executed-transaction">
+										<strong>2:00 h</strong>
+										<p>Scott Masterson</p>
+										<span>13.10.17</span>
+									</div>
+									<div class="executed-transaction">
+										<strong>2:00 h</strong>
+										<p>Scott Masterson</p>
+										<span>13.10.17</span>
+									</div>
+									<div class="executed-transaction">
+										<strong>2:00 h</strong>
+										<p>Scott Masterson</p>
+										<span>13.10.17</span>
+									</div>
+									<div class="executed-transaction">
+										<strong>2:00 h</strong>
+										<p>Scott Masterson</p>
+										<span>13.10.17</span>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="executed-transaction">
+										<strong>2:00 h</strong>
+										<p>Scott Masterson</p>
+										<span>13.10.17</span>
+									</div>
+									<div class="executed-transaction">
+										<strong>2:00 h</strong>
+										<p>Scott Masterson</p>
+										<span>13.10.17</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Statistic" class="tab" tab-id='3'>
+					<div class="statistic-head">
+						<!-- <div class="container-fluid"> -->
+							<div class="tabs-second">
+								<ul class="tab-group">
+									<li class="active"><a href="#day">Day</a></li>
+									<li><a href="#week">Week</a></li>
+									<li><a href="#month">Month</a></li>
+								</ul>
+								<div class="tab-content-second">
+									<div id="day" class="day-statistic">
+										<div class="wrapp-productivity">
+											<div class="drop-down-calendar">
+												<div class="wrapp-day">
+													<h3>Thu, Apr 13</h3>
+													<span>2017</span>
+												</div>
+												<div id="calendar-third" class="calendar">
+													<div class="calendar-header clearfix">
+														<button class="switch-month switch-left"><i class="fa fa-chevron-left"></i></button></button>
+														<h3 class="month-name"></h3>
+														<button class="switch-month switch-right"><i class="fa fa-chevron-right"></i></button>
+													</div>
+													<div class="calendar-weekdays"></div>
+													<div class="calendar-content"></div>
+												</div>	
+											</div>
+											<div class="circl-chart">
+												<div class="left-circle"></div>
+												<div class="border-circle"></div>
+												<div class="right-circle"></div>
+											</div>	
+										</div>
+										<div class="wrapp-bar-chart">
+											<h3>CHART ACTIVITY PER DAY</h3>
+											<div class="container">
+												<div class="row">
+													<canvas id="barChart" width="1200" height="300"></canvas>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div id="week" class="week-statistic">
+										<div class="wrapp-productivity">
+											<div class="drop-down-calendar">
+												<div class="wrapp-day">
+													<h3>Thu, Apr 13</h3>
+													<span>2017</span>
+												</div>
+												<div id="calendar-second" class="calendar">
+													<div class="calendar-header clearfix">
+														<button class="switch-month switch-left"><i class="fa fa-chevron-left"></i></button></button>
+														<h3 class="month-name"></h3>
+														<button class="switch-month switch-right"><i class="fa fa-chevron-right"></i></button>
+													</div>
+													<div class="calendar-weekdays"></div>
+													<div class="calendar-content"></div>
+												</div>	
+											</div>
+											<div class="circl-chart">
+												<div class="left-circle"></div>
+												<div class="border-circle"></div>
+												<div class="right-circle"></div>
+											</div>	
+										</div>
+										<div class="wrapp-bar-chart">
+											<h3>CHART ACTIVITY PER WEEk</h3>
+											<div class="container">
+												<div class="row">
+													<canvas id="barWeekChart" width="1200" height="500"></canvas>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div id="month" class="month-statistic">
+										<div class="wrapp-productivity">
+											<div class="drop-down-calendar">
+												<div class="wrapp-day">
+													<h3>Thu, Apr 13</h3>
+													<span>2017</span>
+												</div>
+												<div id="calendar-first" class="calendar">
+													<div class="calendar-header clearfix">
+														<button class="switch-month switch-left"><i class="fa fa-chevron-left"></i></button></button>
+														<h3 class="month-name"></h3>
+														<button class="switch-month switch-right"><i class="fa fa-chevron-right"></i></button>
+													</div>
+													<div class="calendar-weekdays"></div>
+													<div class="calendar-content"></div>
+												</div>	
+											</div>
+											<div class="circl-chart">
+												<div class="left-circle"></div>
+												<div class="border-circle"></div>
+												<div class="right-circle"></div>
+											</div>	
+										</div>
+										<div class="wrapp-bar-chart">
+											<h3>CHART ACTIVITY PER MONTH</h3>
+											<div class="container">
+												<div class="row">
+													<canvas id="lineMonthChart" width="1200" height="500"></canvas>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<footer style="height: 60px; background-color: #3EA6A4;">
+					
+				</footer>
+			</div>
+		</div>	
+	</section>
+
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
