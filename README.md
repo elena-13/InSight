@@ -1,0 +1,2 @@
+# inSight
+InSight is a system for recording employees' working hours using the Time Bank.The web app allows to use an effective tool that automates the accounting of working hours of employees working at the computer.Via software, it is possible to obtain statistical data on the work of literally every employee of the company. The web app for the account of working hours disciplines employees, motivates them to use the working time more efficiently and ensures the growth of the company's profit.
